@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', serif;
+}
+
+.icon {
+  height: 44px;
+  width: 36px;
+  color: #4F6367;
+}
+
+.nav-bar {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4F6367;
+  background-color: #EEF5DB;
+  border-bottom: 8px solid #B8D8D8;
+}
+
+.profile-picture {
+  height: 131px;
+  widows: 131px;
+}
+
+.header-section {
+  display: flex;
+  background-color: #4F6367;
+}
+
+.nav-section {
+  border: 1px solid #7A9E9F;
+  display: flex;
+  padding: 0 10px;
+}
+
+.welcome-header {
+  color: #B8D8D8;
+}
