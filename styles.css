@@ -277,14 +277,14 @@ span {
   .selected-workout {
     padding-top: 30px;
     font-size: 30px;
-    margin-left: 0;
-    text-align: center;
+    margin-left: 10px;
+    text-align: left;
   }
 
   .selected-workout-name {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
-    margin-left: 0;
+    margin-left: 10px;
   }
 
   .diagram {
@@ -293,8 +293,8 @@ span {
   }
 
   #diagram-2 {
-    height: 38px;
-    width: 94px;
+    height: 44px;
+    width: 136px;
   }
 
   .exercise-instructions {
