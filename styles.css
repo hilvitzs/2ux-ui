@@ -236,7 +236,6 @@ span {
 
   .workouts {
     display: flex;
-    justify-content: center;
   }
 
   .selected-workout {
@@ -248,17 +247,23 @@ span {
     margin-left: 0;
     text-align: center;
   }
-}
 
-@media screen and (max-width: 1000px) {
   li {
     display: none;
   }
+}
 
-  .nav-section {
-    justify-content: center;
+@media screen and (max-width: 470px) {
+  .profile-picture {
+    height: 70px;
+    width: 70px;
+  }
+
+  .welcome-header {
+    font-size: 25px;
   }
 }
+
 
 @media screen and (max-width: 400px) {
   .step-counter {
@@ -268,6 +273,7 @@ span {
   .today-count {
     width: 100%;
     height: 100%;
+    border-bottom: 2px solid #7A9E9F;
   }
 
   .week-count {
@@ -304,5 +310,10 @@ span {
   .exercises-section {
     width: 100%;
     height: 70%;
+  }
+
+  .workouts {
+    font-size: 25px;
+    text-align: left;
   }
 }
