@@ -7,9 +7,9 @@ html, body {
 }
 
 .icon {
+  color: #4F6367;
   height: 44px;
   width: 36px;
-  color: #4F6367;
 }
 
 .nav-bar {
@@ -35,10 +35,10 @@ html, body {
 }
 
 .header-section {
+  border-bottom: 10px solid #7A9E9F;
   text-align: center;
   background-color: #4F6367;
   width: 100%;
-  border-bottom: 10px solid #7A9E9F;
 }
 
 .nav-section {
@@ -309,8 +309,8 @@ span {
   }
 
   .exercises-section {
-    width: 100%;
     height: 70%;
+    width: 100%;
   }
 
   .workouts {
